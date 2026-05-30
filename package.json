@@ -1,6 +1,9 @@
 {
+  "name": "conquer",
   "homepage": "https://YOUR-GITHUB-USERNAME.github.io/conquer",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
